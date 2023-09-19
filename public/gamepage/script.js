@@ -7,7 +7,7 @@ const URL = "../FinalModel/";
 let model, webcam, labelContainer, maxPredictions;
 let show = 0;
 let f = 0;
-const myPeer = new Peer({ host: 'rps-trial2.herokuapp.com', secure: true, port: 443 })
+const myPeer = new Peer({ host: 'https://sparrow-game.onrender.com', secure: true, port: 443 })
 //console.log(myPeer)
 let myVideoStream;
 let myId;
